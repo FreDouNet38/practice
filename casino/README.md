@@ -4,4 +4,4 @@ je vais coder petit à petit avec ce que je sais et rajouter au fur à mesure le
 
 le jeu semble bien fonctionner
 
-
+quelques problèmes pour tout pusher
