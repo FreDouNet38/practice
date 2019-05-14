@@ -1,3 +1,5 @@
+"""A little game called guess"""
+
 import random
 
 rand_numb = random.randint(1, 30)
@@ -5,14 +7,15 @@ user_answer = 0
 tries = 5
 
 
-print("\n\nYOU'RE PLAYING GUESS!\n\n\nI picked a number between 1 and 30 \n\nCan you guess which one? \n\nGive it a try\n")
+print("\n\nYOU'RE PLAYING GUESS!\n\n\nI picked a number between 1 and 30 \
+    \n\nCan you guess which one? \n\nGive it a try\n")
 
-    
+
 while user_answer != rand_numb and tries > 0:
 
     user_answer = input()
     user_answer = int(user_answer)
-    
+
     if user_answer < rand_numb:
         print("\nToo low!! Higher\n")
 
@@ -30,4 +33,3 @@ while user_answer != rand_numb and tries > 0:
 
 if tries == 0:
     print("YOU LOSE")
-    
